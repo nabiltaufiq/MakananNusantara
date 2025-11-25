@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="css/text">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="background-color: burlywood;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-bottom bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-box2-heart"></i> <b>Makanan Nusantara</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="detail.html">Tentang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/hero1.jpg" class="d-block w-100" alt="..." style="filter: brightness(60%);">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Selamat Datang!</h3>
+                    <p>Senang sekali Anda berada di sini! Ini adalah tempat bagi Anda yang mencari berbagai makanan khas
+                        di nusantara.</p>
+                    <a href="#deskripsi" class="btn btn-outline-warning">Lihat Produk</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/hero2.jpg" class="d-block w-100" alt="..." style="filter: brightness(60%);">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Temukan Rasa</h3>
+                    <p>"Jelajahi Rasa Indonesia. Warisan Kuliner yang Tak Terlupakan."</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/hero3.jpg" class="d-block w-100" alt="..." style="filter: brightness(60%);">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ribuan Rasa Nusantara</h5>
+                    <p>"Ribuan Rasa, Satu Nusantara. Petualangan Kuliner Dimulai Di Sini."</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Deskripsi -->
+    <h3 style="padding: 30px 0px 30px 0px; text-align: center;" id="deskripsi">Makanan Khas Nusantara</h3>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4" style="padding: 0px 30px 30px 30px;">
+        <div class="col">
+            <div class="card" style="box-shadow: 2px 2px 3px black;">
+                <img src="assets/img/rendang.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rendang</h5>
+                    <p class="card-text">Rendang adalah hidangan lauk pauk tradisional khas Minangkabau, Sumatera Barat,
+                        Indonesia, yang telah mendunia dan sering dinobatkan sebagai salah satu makanan terenak di
+                        dunia.</p>
+                </div>
+                <div class="card-footer">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <a href="produk.html" class="btn btn-warning">Lihat Pesanan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="box-shadow: 2px 2px 3px black;">
+                <img src="assets/img/Pempek Palembang.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pempek Palembang</h5>
+                    <p class="card-text">Pempek, atau biasa juga disebut Empek-Empek, adalah makanan khas Palembang,
+                        Sumatera Selatan, yang sangat populer di seluruh Indonesia.</p>
+                </div>
+                <div class="card-footer">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <a href="produk.html" class="btn btn-warning">Lihat Pesanan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="box-shadow: 2px 2px 3px black;">
+                <img src="assets/img/rawon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rawon</h5>
+                    <p class="card-text">Rawon adalah sup daging tradisional khas Jawa Timur yang sangat ikonik,
+                        terutama
+                        populer di daerah Surabaya dan Malang. Ciri khas utamanya adalah kuah hitam pekat yang unik.</p>
+                </div>
+                <div class="card-footer">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <a href="produk.html" class="btn btn-warning">Lihat Pesanan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="box-shadow: 2px 2px 3px black;">
+                <img src="assets/img/gudeg1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gudeg</h5>
+                    <p class="card-text">Gudeg adalah hidangan tradisional khas Daerah Istimewa Yogyakarta dan beberapa
+                        wilayah di Jawa Tengah, yang sangat ikonik dan membuat Yogyakarta dijuluki sebagai "Kota Gudeg."
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <a href="produk.html" class="btn btn-warning">Lihat Pesanan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card" style="text-align: center; border-radius: 0;">
+        <div class="card-header">
+            Website by
+        </div>
+        <div class="card-body">
+            <p class="card-text">&copy;Makanan Nusantara</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
