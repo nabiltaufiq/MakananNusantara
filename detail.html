@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="css/text">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="background-color: burlywood;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" style="box-shadow: 0px 1px 3px black;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Makanan Nusantara</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Tentang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="card">
+        <img src="assets/img/hero2.jpg" class="card-img" alt="..." style="border-radius: 0; filter: brightness(60%);">
+        <div class="card-img-overlay" style="text-align: center; color: white;">
+            <h2 class="card-title">Portofolio</h2>
+            <p class="card-text">Makanan Nusantara adalah portal kuliner digital terlengkap dan terhangat yang
+                didedikasikan untuk merayakan kekayaan cita rasa dan warisan budaya makanan Nusantara dari Sabang hingga
+                Merauke.</p>
+        </div>
+    </div>
+
+
+    <!-- Tentang -->
+    <h3 style="padding: 30px 0px 30px 0px; text-align: center;" id="deskripsi">Tentang Kami</h3>
+
+    <!-- Visi & Misi -->
+    <div class="container" style="padding: 0px 30px 30px 30px;">
+        <div class="card mb-3">
+            <img src="assets/img/hero1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Visi</h5>
+                <p class="card-text">Menjadi sumber rujukan digital utama dan terlengkap di dunia untuk keautentikan,
+                    sejarah, dan resep masakan Nusantara, serta menjadi katalisator bagi pelestarian warisan kuliner
+                    Indonesia secara global.</p>
+                <p class="card-text"><small class="text-body-secondary">By Makanan Nusantara</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Misi</h5>
+                <p class="card-text">
+                <p>1. Menyediakan Konten Otentik: Menyajikan dan mendokumentasikan resep-resep
+                    tradisional Indonesia dengan akurat dan mendalam, memastikan keaslian rasa dan teknik memasak dari
+                    setiap daerah.</p>
+
+                <p>2. Mengedukasi dan Menginspirasi: Menjelaskan sejarah, filosofi, dan nilai-nilai budaya yang
+                    terkandung
+                    di balik setiap hidangan, menginspirasi pembaca untuk memasak dan menghargai kuliner Nusantara.</p>
+
+                <p>3. Mempromosikan Bahan Lokal: Aktif mempromosikan penggunaan rempah-rempah dan bahan baku lokal
+                    Indonesia, mendukung keberlanjutan petani dan produsen di seluruh Nusantara.</p>
+
+                4. Menciptakan Komunitas: Membangun komunitas daring yang solid bagi pecinta kuliner, koki, dan food
+                blogger untuk berbagi pengetahuan, pengalaman, dan kecintaan mereka terhadap masakan Indonesia.</p>
+                <p class="card-text"><small class="text-body-secondary">By Makanan Nusantara</small></p>
+            </div>
+            <img src="assets/img/hero3.jpg" class="card-img-bottom" alt="...">
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="container-fluid" style="padding: 0px 20px 30px 20px;">
+        <div class="card text-center">
+            <div class="card-header">
+                Formulir Kontak
+            </div>
+            <div class="container-fluid" style="padding: 30px 30px; text-align: left;">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Kota</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputState" class="form-label">Jenis Kelamin</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Laki-laki</option>
+                            <option>Perempuan</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer text-body-secondary">
+                <p class="card-text"><small>By Makanan Nusantara</small></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: 0px 20px 30px 20px; text-align: left;">
+        <div class="card text-center">
+            <div class="card-header">
+                Komentar
+            </div>
+            <div class="container-fluid" style="padding: 30px 30px; text-align: left;">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success">Kirim</button>
+                </div>
+                </form>
+            </div>
+            <div class="card-footer text-body-secondary">
+                <p class="card-text"><small>By Makanan Nusantara</small></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card" style="text-align: center; border-radius: 0;">
+        <div class="card-header">
+            Website by
+        </div>
+        <div class="card-body">
+            <p class="card-text">&copy;Makanan Nusantara</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

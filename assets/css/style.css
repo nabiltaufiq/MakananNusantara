@@ -1,0 +1,10 @@
+
+.carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
